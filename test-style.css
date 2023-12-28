@@ -1,0 +1,37 @@
+.box {
+    width: 500px;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 200ms ease;
+    float: left;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 200ms ease;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    padding: 0px;
+    margin: 10px 0px 20px 0px;
+    transition: all 200ms ease;
+}
+
+.box:hover h2{
+    color: #e03261;
+} 
+
+.box:hover img {
+    filter: grayscale(0%);
+}
+
+.box:hover {
+    background-color: white;
+    filter: drop-shadow(5px 5px 4px gray);
+}
